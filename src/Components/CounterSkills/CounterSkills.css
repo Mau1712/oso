@@ -1,0 +1,49 @@
+
+
+.counterSkillsContainer {
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.counter {
+    padding: 45px 15px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 147.60px;
+    width: 265px;
+    text-align: center;
+}
+
+.counter:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+.counter h3 {
+    color: white;
+    font-weight: 600;
+}
+
+.counter p {
+    color: #00b1fe;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .counterSkillsContainer {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .counter {
+        width: 150px;
+        height: 150px;
+    }
+}

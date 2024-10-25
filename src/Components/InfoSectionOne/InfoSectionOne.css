@@ -1,0 +1,82 @@
+
+
+.bgInfoSectionOne {
+    background-image: url(../../assets/bgInfoOne.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+}
+
+
+.infoSectionOneContainer {
+    gap: 25px;
+    padding-block: 60px 90px;
+    
+}
+
+
+/* -------Primer titulo y texto------- */
+
+.infoSectionOneTitle {
+    margin-bottom: 20px;   
+}
+
+.infoSectionOneTitle H2 {
+    color: #00b1fe;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.infoSectionOneTitle p {
+    color: white;
+}
+
+.infoSectionOneTitle strong {
+    color: #00b1fe;
+}
+
+/* -------Segundo titulo y texto------- */
+
+.infoSectionOneTxt {
+    margin-bottom: 20px;
+}
+
+.infoSectionOneTxt h4 {
+    color: #00b1fe;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.infoSectionOneTxt p {
+    color: white;
+}
+
+.infoSectionOneButton {
+    margin-top: auto;
+}
+
+/* -------boton------- */
+
+.infoSectionOneButton button {
+    border: none;
+    background: #00b1fe;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 35px;
+    border-radius: 2px;
+}
+
+.infoSectionOneButton button:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+/* ----------------------- */
+
+@media screen and (max-width: 600px) {
+    .infoSectionOneButton button {
+        width: 100%;
+    }    
+}
+
