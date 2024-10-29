@@ -111,7 +111,7 @@
     }    
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     .countriesSectionContainer {
         height: 75vh;
     }
