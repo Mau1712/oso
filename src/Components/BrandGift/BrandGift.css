@@ -1,13 +1,31 @@
 
 .brandGiftContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-block: 20px 80px;
 }
 
 .brandGiftContainer img {
-    width: 300px;
+    width: 180px;
     
+}
+
+@media screen and (max-width: 767px) {
+    .brandGiftContainer img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .brandGiftContainer img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .brandGiftContainer img {
+        width: 110px;
+    }
 }

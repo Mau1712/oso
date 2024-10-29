@@ -7,9 +7,7 @@ import './InfoSectionFour.css'
 const InfoSectionFour = () => {
     return (
         <Container className='infoSectionFourContainer'>
-            <div>
-                <video autoPlay muted loop src={videoPlanet}></video>
-            </div>
+          
         </Container>
     )
 }
