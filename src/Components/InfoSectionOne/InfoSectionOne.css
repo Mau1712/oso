@@ -75,8 +75,21 @@
 /* ----------------------- */
 
 @media screen and (max-width: 600px) {
+
+    .infoSectionOneContainer {
+        padding-bottom: 50px;
+    }
+
     .infoSectionOneButton button {
         width: 100%;
     }    
+
+    .infoSectionOneTitle p {
+        text-align: justify;
+    }
+
+    .infoSectionOneTxt p {
+        text-align: justify;
+    }
 }
 

@@ -43,3 +43,15 @@
 .btnRegister button:hover {
     background-color: #00b1fe;
 }
+
+@media (max-width: 380px) {
+    .btnRegister button {
+        padding: 15px 25px;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(54, 54, 54);
+        color: white;
+        border: none;
+        font-size: 13px;
+    }
+}

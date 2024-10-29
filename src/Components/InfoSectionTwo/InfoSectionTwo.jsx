@@ -7,7 +7,7 @@ const InfoSectionTwo = () => {
     return (
         <Container className="infoSectionTwoContainer">
 
-            <div className="infoSectionTwoContent">
+            <Container className="infoSectionTwoContent">
                 <h2>Canales en vivo</h2>
                 <p>
                     ¡Con nuestra plataforma, tienes acceso a más de <strong>3.500 canales en vivo</strong> de todos los países del mundo! Disfruta de una amplia variedad de contenido internacional, desde noticias, deportes, entretenimiento, y mucho más. Todo en tiempo real, sin importar dónde te encuentres.
@@ -18,11 +18,11 @@ const InfoSectionTwo = () => {
                 <button>
                     ¡Lo quiero!
                 </button>
-            </div>
+            </Container>
 
-            <div className="infoSectionTwoContent">
+            <Container className="infoSectionTwoContent">
                 <img src={vivo} alt="" />
-            </div>
+            </Container>
 
         </Container>
     )

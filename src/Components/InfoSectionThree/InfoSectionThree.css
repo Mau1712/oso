@@ -1,0 +1,82 @@
+
+
+.infoSectionThreeContainer {
+    margin-bottom: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.infoSectionThreeContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    
+}
+
+.infoSectionThreeContent img {
+    width: 100%;
+    border: solid 1px white;
+}
+
+.infoSectionThreeContent h2 {
+    color: #00b1fe;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.infoSectionThreeContent p {
+    color: white;
+}
+
+.infoSectionThreeContent strong {
+    color: #00b1fe;
+}
+
+.infoSectionThreeContent button {
+    margin-top: 20px;
+    background-color: #00b1fe;
+    color: white;
+    padding-block: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: 30%;
+}
+
+.infoSectionThreeContent button:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+.instructionCountries p {
+    color: red;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .infoSectionThreeContainer {
+       flex-wrap: wrap-reverse;
+    }
+
+    .infoSectionThreeContent {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .infoSectionThreeContent p {
+        text-align: justify;
+    }
+
+    .infoSectionThreeContent button {
+        margin-block: 25px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .infoSectionThreeContent button {
+        width: 100%;
+    }    
+}

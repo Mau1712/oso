@@ -6,7 +6,7 @@ const InfoSectionOne = () => {
     return (
         <Container fluid className='bgInfoSectionOne'>
             <Container className='infoSectionOneContainer'>
-                <div className='infoSectionOneTitleBox'>
+                <Container className='infoSectionOneTitleBox'>
                     <div className='infoSectionOneTitle'>
                         <h2>TODO EN UN SOLO LUGAR</h2>
                         <p>
@@ -24,7 +24,7 @@ const InfoSectionOne = () => {
                             CONTACTAR ASESOR
                         </button>
                     </div>
-                </div>
+                </Container>
             </Container>
         </Container>
     )

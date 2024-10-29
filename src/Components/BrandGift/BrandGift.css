@@ -1,0 +1,13 @@
+
+.brandGiftContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-block: 20px 80px;
+}
+
+.brandGiftContainer img {
+    width: 300px;
+    
+}
