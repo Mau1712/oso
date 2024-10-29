@@ -49,12 +49,6 @@
     background-color: rgb(54, 54, 54);
 }
 
-.instructionCountries p {
-    color: red;
-    margin-top: 15px;
-    font-weight: 600;
-    font-size: 14px;
-}
 
 @media screen and (max-width: 768px) {
     .infoSectionThreeContainer {
