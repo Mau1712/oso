@@ -44,7 +44,7 @@
     background-color: #00b1fe;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     .btnRegister button {
         padding: 15px 25px;
         font-weight: 700;
